@@ -16,8 +16,13 @@ section {
   justify-content: flex-start; /* Alinha à esquerda */
 }
 
+#imagem-natureza{
+  height: 220.4px;
+  width: auto;
+}
+
 /* Estilização do primeiro parágrafo (Texto 1) */
-.texto-destaque {
+p{
   color: #2C3E50; /* Cor forte para o texto (um tom de azul escuro) */
   font-family: 'Arial', sans-serif; /* Fonte Arial */
   font-size: 18px;
