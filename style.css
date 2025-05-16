@@ -1,0 +1,34 @@
+﻿/* Container centralizado */
+/* Container centralizado */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Bloco com texto e imagem lado a lado */
+section {
+  display: flex;
+  align-items: center; /* Alinha o texto e a imagem verticalmente */
+  gap: 20px; /* Espaçamento entre o texto e a imagem */
+  margin-bottom: 40px;
+  justify-content: flex-start; /* Alinha à esquerda */
+}
+
+/* Estilização do primeiro parágrafo (Texto 1) */
+.texto-destaque {
+  color: #2C3E50; /* Cor forte para o texto (um tom de azul escuro) */
+  font-family: 'Arial', sans-serif; /* Fonte Arial */
+  font-size: 18px;
+  line-height: 1.6;
+  max-width: 500px; /* Limita a largura do parágrafo */
+  text-align: justify; /* Justifica o texto */
+}
+
+/* Estilização da primeira imagem */
+.imagem-destaque {
+  width: 350px; /* Aumenta o tamanho da imagem */
+  height: auto;
+  border-radius: 8px;
+}
